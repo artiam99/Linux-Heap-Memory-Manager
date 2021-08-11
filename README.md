@@ -4,7 +4,7 @@ This is custom-designed Linux Heap Memory Manager. It manages the memory allocat
 
 malloc() and free() functions are also implemented in this project and Internal and External Fragmentation problems are also prevented.
 
-The Memory Manager also shows its internal state by printing the memory usage for each structures.
+The Memory Manager also shows its internal state by printing the memory usage for each structure.
 
 
 ### compilation - 
