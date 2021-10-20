@@ -24,12 +24,12 @@ The Memory Manager also shows its internal state by printing the memory usage fo
  
 ./test.exe
 
-# High Level Design
+## High Level Design
 
 ![hld](https://user-images.githubusercontent.com/47227715/138080342-6e2de178-134d-4770-b4d5-cb2a0a93e724.png)
 
 
-# Test App
+## Testing Linux Heap Memory Manager
 
 ![Screenshot (82)](https://user-images.githubusercontent.com/47227715/128883011-56a6152f-f0c4-4dfb-bb8d-3ed88484b973.png)
 
