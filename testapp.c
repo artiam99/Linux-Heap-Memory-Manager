@@ -30,12 +30,12 @@ int main(int argc, char **argv)
 
      mm_print_registered_page_families();
      
-     emp_t *emp1 = XMALLOC(1, emp_t);
-     emp_t *emp2 = XMALLOC(1, emp_t);
-     emp_t *emp3 = XMALLOC(1, emp_t);
+     emp_t *emp1 = XCALLOC(1, emp_t);
+     emp_t *emp2 = XCALLOC(1, emp_t);
+     emp_t *emp3 = XCALLOC(1, emp_t);
      
-     student_t *stud1 = XMALLOC(1, student_t);
-     student_t *stud2 = XMALLOC(1, student_t);
+     student_t *stud1 = XCALLOC(1, student_t);
+     student_t *stud2 = XCALLOC(1, student_t);
      
      
      printf("\nScenario 1 : \n");
