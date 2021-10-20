@@ -360,7 +360,7 @@ vm_page_family_t * lookup_page_family_by_name(char *struct_name)
 
 
 /* The public fn to be invoked by the application for Dynamic Memory Allocations. */
-void *xmalloc(char *struct_name, int units)
+void *xcalloc(char *struct_name, int units)
 {
     vm_page_family_t *pg_family = lookup_page_family_by_name(struct_name);
 
