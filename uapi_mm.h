@@ -3,11 +3,11 @@
 
 #include <stdint.h>
 
-void *xmalloc(char *struct_name, int units);
+void *xcalloc(char *struct_name, int units);
 
 void xfree(void *ptr);
 
-#define XMALLOC(units, struct_name) (xmalloc(#struct_name, units))
+#define XCALLOC(units, struct_name) (xcalloc(#struct_name, units))
 
 #define XFREE(ptr) (xfree(ptr))
 
